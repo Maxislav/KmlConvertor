@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document>
+        <name>Location history from 2016-08-25 to 2016-08-25</name>
+        <open>1</open>
+        <description />
+        <StyleMap id="multiTrack">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#multiTrack_n</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#multiTrack_h</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id="multiTrack_n">
+            <IconStyle>
+                <Icon>
+                    <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+                </Icon>
+            </IconStyle>
+            <LineStyle>
+                <color>99ffac59</color>
+                <width>6</width>
+            </LineStyle>
+        </Style>
+        <Style id="multiTrack_h">
+            <IconStyle>
+                <scale>1.2</scale>
+                <Icon>
+                    <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+                </Icon>
+            </IconStyle>
+            <LineStyle>
+                <color>99ffac59</color>
+                <width>8</width>
+            </LineStyle>
+        </Style>
+        <Placemark>
+            <name>Коломийський провулок, 3/1</name>
+            <address>Київ, Украина</address>
+            <ExtendedData>
+                <Data name="Category">
+                    <value />
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>from 2016-08-24T19:28:22.000Z to 2016-08-25T05:54:53.312Z. Distance 0m</description>
+            <Point>
+                <coordinates />
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>30.493654 50.388791999999995 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-08-24T19:28:22.000Z</begin>
+                <end>2016-08-25T05:54:53.312Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Walking</name>
+            <address />
+            <ExtendedData>
+                <Data name="Category">
+                    <value>Walking</value>
+                </Data>
+                <Data name="Distance">
+                    <value>739</value>
+                </Data>
+            </ExtendedData>
+            <description>Walking from 2016-08-25T05:54:53.312Z to 2016-08-25T06:04:50.191Z. Distance 739m</description>
+            <Point>
+                <coordinates />
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>30.493654 50.388791999999995 0</gx:coord>
+                <gx:coord>30.4931649 50.3893713 0</gx:coord>
+                <gx:coord>30.4926528 50.3908438 0</gx:coord>
+                <gx:coord>30.4922753 50.3922605 0</gx:coord>
+                <gx:coord>30.4917693 50.393825 0</gx:coord>
+                <gx:coord>30.4950155 50.3942415 0</gx:coord>
+                <gx:coord>30.494767399999997 50.394168699999994 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-08-25T05:54:53.312Z</begin>
+                <end>2016-08-25T06:04:50.191Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Отделение ПриватБанка, зона самообслуживания 24/7</name>
+            <address>вулиця Васильківська, 23/16, Київ, Украина, 03040</address>
+            <ExtendedData>
+                <Data name="Category">
+                    <value>Банк</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>Банк from 2016-08-25T06:04:50.191Z to 2016-08-25T06:13:03.015Z. Distance 0m</description>
+            <Point>
+                <coordinates />
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>30.494767399999997 50.394168699999994 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-08-25T06:04:50.191Z</begin>
+                <end>2016-08-25T06:13:03.015Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Walking</name>
+            <address />
+            <ExtendedData>
+                <Data name="Category">
+                    <value>Walking</value>
+                </Data>
+                <Data name="Distance">
+                    <value>717</value>
+                </Data>
+            </ExtendedData>
+            <description>Walking from 2016-08-25T06:13:03.015Z to 2016-08-25T06:23:17.326Z. Distance 717m</description>
+            <Point>
+                <coordinates />
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>30.494767399999997 50.394168699999994 0</gx:coord>
+                <gx:coord>30.495073 50.3943095 0</gx:coord>
+                <gx:coord>30.4946309 50.3929778 0</gx:coord>
+                <gx:coord>30.4961628 50.3896608 0</gx:coord>
+                <gx:coord>30.4956638 50.3885818 0</gx:coord>
+                <gx:coord>30.4950671 50.3882379 0</gx:coord>
+                <gx:coord>30.493654 50.388791999999995 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-08-25T06:13:03.015Z</begin>
+                <end>2016-08-25T06:23:17.326Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Коломийський провулок, 3/1</name>
+            <address>Київ, Украина</address>
+            <ExtendedData>
+                <Data name="Category">
+                    <value />
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>from 2016-08-25T06:23:17.326Z to 2016-08-25T06:46:34.000Z. Distance 0m</description>
+            <Point>
+                <coordinates />
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>30.493654 50.388791999999995 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-08-25T06:23:17.326Z</begin>
+                <end>2016-08-25T06:46:34.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Cycling</name>
+            <address />
+            <ExtendedData>
+                <Data name="Category">
+                    <value>Cycling</value>
+                </Data>
+                <Data name="Distance">
+                    <value>15449</value>
+                </Data>
+            </ExtendedData>
+            <description>Cycling from 2016-08-25T06:46:34.000Z to 2016-08-25T07:21:59.000Z. Distance 15449m</description>
+            <Point>
+                <coordinates />
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>30.493654 50.388791999999995 0</gx:coord>
+                <gx:coord>30.4938717 50.388015 0</gx:coord>
+                <gx:coord>30.492785 50.3875217 0</gx:coord>
+                <gx:coord>30.4907483 50.3866717 0</gx:coord>
+                <gx:coord>30.489915 50.3863317 0</gx:coord>
+                <gx:coord>30.4890767 50.3859267 0</gx:coord>
+                <gx:coord>30.4880083 50.385545 0</gx:coord>
+                <gx:coord>30.487035 50.38523 0</gx:coord>
+                <gx:coord>30.4861917 50.3848767 0</gx:coord>
+                <gx:coord>30.4854183 50.384545 0</gx:coord>
+                <gx:coord>30.484555 50.3841832 0</gx:coord>
+                <gx:coord>30.4836117 50.3837649 0</gx:coord>
+                <gx:coord>30.482595 50.38327 0</gx:coord>
+                <gx:coord>30.4798683 50.382315 0</gx:coord>
+                <gx:coord>30.47907 50.3818567 0</gx:coord>
+                <gx:coord>30.4780933 50.38149 0</gx:coord>
+                <gx:coord>30.477585 50.3813467 0</gx:coord>
+                <gx:coord>30.4763167 50.3808867 0</gx:coord>
+                <gx:coord>30.4747767 50.380285 0</gx:coord>
+                <gx:coord>30.473005 50.3795383 0</gx:coord>
+                <gx:coord>30.47129 50.3786833 0</gx:coord>
+                <gx:coord>30.46955 50.37761 0</gx:coord>
+                <gx:coord>30.46814 50.3767183 0</gx:coord>
+                <gx:coord>30.4670683 50.37601 0</gx:coord>
+                <gx:coord>30.46579 50.3751467 0</gx:coord>
+                <gx:coord>30.464315 50.3741833 0</gx:coord>
+                <gx:coord>30.462945 50.373285 0</gx:coord>
+                <gx:coord>30.4599167 50.37166 0</gx:coord>
+                <gx:coord>30.4580967 50.3716883 0</gx:coord>
+                <gx:coord>30.4565817 50.371995 0</gx:coord>
+                <gx:coord>30.4555467 50.3727833 0</gx:coord>
+                <gx:coord>30.4543467 50.3736383 0</gx:coord>
+                <gx:coord>30.4532483 50.3744183 0</gx:coord>
+                <gx:coord>30.4520133 50.3753067 0</gx:coord>
+                <gx:coord>30.450795 50.3762217 0</gx:coord>
+                <gx:coord>30.4494117 50.3772267 0</gx:coord>
+                <gx:coord>30.4481167 50.3781966 0</gx:coord>
+                <gx:coord>30.4468033 50.37915 0</gx:coord>
+                <gx:coord>30.4453967 50.3802183 0</gx:coord>
+                <gx:coord>30.4438917 50.3813316 0</gx:coord>
+                <gx:coord>30.4425033 50.3822983 0</gx:coord>
+                <gx:coord>30.4411 50.38328 0</gx:coord>
+                <gx:coord>30.4398633 50.3842349 0</gx:coord>
+                <gx:coord>30.4387483 50.3850683 0</gx:coord>
+                <gx:coord>30.437735 50.385855 0</gx:coord>
+                <gx:coord>30.4366367 50.38665 0</gx:coord>
+                <gx:coord>30.4354767 50.3875316 0</gx:coord>
+                <gx:coord>30.4342783 50.3884083 0</gx:coord>
+                <gx:coord>30.4330867 50.389295 0</gx:coord>
+                <gx:coord>30.431905 50.39015 0</gx:coord>
+                <gx:coord>30.4307717 50.3909933 0</gx:coord>
+                <gx:coord>30.4296417 50.3918383 0</gx:coord>
+                <gx:coord>30.4285617 50.39265 0</gx:coord>
+                <gx:coord>30.4274867 50.3934167 0</gx:coord>
+                <gx:coord>30.426355 50.39427 0</gx:coord>
+                <gx:coord>30.42513 50.395035 0</gx:coord>
+                <gx:coord>30.4238067 50.3958233 0</gx:coord>
+                <gx:coord>30.4225483 50.39646 0</gx:coord>
+                <gx:coord>30.4215717 50.3969367 0</gx:coord>
+                <gx:coord>30.420525 50.3973682 0</gx:coord>
+                <gx:coord>30.419455 50.3977733 0</gx:coord>
+                <gx:coord>30.4172417 50.3985567 0</gx:coord>
+                <gx:coord>30.4158417 50.3990283 0</gx:coord>
+                <gx:coord>30.413995 50.3996433 0</gx:coord>
+                <gx:coord>30.41209 50.4002883 0</gx:coord>
+                <gx:coord>30.41015 50.400945 0</gx:coord>
+                <gx:coord>30.4084983 50.4014583 0</gx:coord>
+                <gx:coord>30.4068283 50.402005 0</gx:coord>
+                <gx:coord>30.404985 50.40264 0</gx:coord>
+                <gx:coord>30.4031567 50.403275 0</gx:coord>
+                <gx:coord>30.40143 50.4038583 0</gx:coord>
+                <gx:coord>30.3999583 50.4043567 0</gx:coord>
+                <gx:coord>30.3986067 50.404825 0</gx:coord>
+                <gx:coord>30.3972633 50.4052717 0</gx:coord>
+                <gx:coord>30.3959717 50.4057133 0</gx:coord>
+                <gx:coord>30.3945617 50.40622 0</gx:coord>
+                <gx:coord>30.3931433 50.4069 0</gx:coord>
+                <gx:coord>30.3917667 50.4076783 0</gx:coord>
+                <gx:coord>30.39037 50.4085617 0</gx:coord>
+                <gx:coord>30.3890483 50.4093917 0</gx:coord>
+                <gx:coord>30.3877867 50.4102017 0</gx:coord>
+                <gx:coord>30.386425 50.41106 0</gx:coord>
+                <gx:coord>30.385125 50.4118883 0</gx:coord>
+                <gx:coord>30.3838217 50.4127167 0</gx:coord>
+                <gx:coord>30.3827 50.41342 0</gx:coord>
+                <gx:coord>30.3815467 50.4141233 0</gx:coord>
+                <gx:coord>30.3803867 50.4148633 0</gx:coord>
+                <gx:coord>30.379175 50.41559 0</gx:coord>
+                <gx:coord>30.37804 50.4163349 0</gx:coord>
+                <gx:coord>30.3758917 50.4177 0</gx:coord>
+                <gx:coord>30.3749267 50.4182933 0</gx:coord>
+                <gx:coord>30.374 50.4188517 0</gx:coord>
+                <gx:coord>30.37306 50.4194467 0</gx:coord>
+                <gx:coord>30.3720917 50.420065 0</gx:coord>
+                <gx:coord>30.3710967 50.4206883 0</gx:coord>
+                <gx:coord>30.3701417 50.421375 0</gx:coord>
+                <gx:coord>30.3692467 50.4221667 0</gx:coord>
+                <gx:coord>30.3685217 50.4229483 0</gx:coord>
+                <gx:coord>30.3677467 50.4238367 0</gx:coord>
+                <gx:coord>30.3670983 50.42472 0</gx:coord>
+                <gx:coord>30.3664183 50.42566 0</gx:coord>
+                <gx:coord>30.3656717 50.4266567 0</gx:coord>
+                <gx:coord>30.3648283 50.4278132 0</gx:coord>
+                <gx:coord>30.363795 50.429215 0</gx:coord>
+                <gx:coord>30.36282 50.4305 0</gx:coord>
+                <gx:coord>30.3612333 50.4326083 0</gx:coord>
+                <gx:coord>30.3607783 50.433645 0</gx:coord>
+                <gx:coord>30.3604483 50.4345917 0</gx:coord>
+                <gx:coord>30.36028 50.4355383 0</gx:coord>
+                <gx:coord>30.360115 50.4364383 0</gx:coord>
+                <gx:coord>30.3599667 50.4374033 0</gx:coord>
+                <gx:coord>30.35979 50.4383717 0</gx:coord>
+                <gx:coord>30.35949 50.4404033 0</gx:coord>
+                <gx:coord>30.3593817 50.441355 0</gx:coord>
+                <gx:coord>30.3592117 50.44243 0</gx:coord>
+                <gx:coord>30.35903 50.44353 0</gx:coord>
+                <gx:coord>30.35883 50.44471 0</gx:coord>
+                <gx:coord>30.3585817 50.4463633 0</gx:coord>
+                <gx:coord>30.3584783 50.4470883 0</gx:coord>
+                <gx:coord>30.358375 50.4479133 0</gx:coord>
+                <gx:coord>30.3581933 50.4488033 0</gx:coord>
+                <gx:coord>30.3580533 50.4497917 0</gx:coord>
+                <gx:coord>30.3579567 50.4506633 0</gx:coord>
+                <gx:coord>30.3578717 50.45152 0</gx:coord>
+                <gx:coord>30.3584267 50.4517683 0</gx:coord>
+                <gx:coord>30.3594583 50.45187 0</gx:coord>
+                <gx:coord>30.3603883 50.4518983 0</gx:coord>
+                <gx:coord>30.36136 50.451875 0</gx:coord>
+                <gx:coord>30.3624267 50.4519067 0</gx:coord>
+                <gx:coord>30.3633529 50.4519485 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-08-25T06:46:34.000Z</begin>
+                <end>2016-08-25T07:21:59.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>вулиця Верховинна, 59</name>
+            <address>вулиця Верховинна, 59, Київ, Украина</address>
+            <ExtendedData>
+                <Data name="Category">
+                    <value />
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>from 2016-08-25T07:21:59.000Z to 2016-08-25T10:49:03.542Z. Distance 0m</description>
+            <Point>
+                <coordinates />
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>30.3633529 50.4519485 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-08-25T07:21:59.000Z</begin>
+                <end>2016-08-25T10:49:03.542Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Walking</name>
+            <address />
+            <ExtendedData>
+                <Data name="Category">
+                    <value>Walking</value>
+                </Data>
+                <Data name="Distance">
+                    <value>488</value>
+                </Data>
+            </ExtendedData>
+            <description>Walking from 2016-08-25T10:49:03.542Z to 2016-08-25T10:53:56.219Z. Distance 488m</description>
+            <Point>
+                <coordinates />
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>30.3633529 50.4519485 0</gx:coord>
+                <gx:coord>30.3630259 50.4518691 0</gx:coord>
+                <gx:coord>30.364998200000002 50.4560768 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-08-25T10:49:03.542Z</begin>
+                <end>2016-08-25T10:53:56.219Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Житомирская</name>
+            <address>Київ, Украина</address>
+            <ExtendedData>
+                <Data name="Category">
+                    <value>Станция метро</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>Станция метро from 2016-08-25T10:53:56.219Z to 2016-08-25T11:22:22.100Z. Distance 0m</description>
+            <Point>
+                <coordinates />
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>30.364998200000002 50.4560768 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-08-25T10:53:56.219Z</begin>
+                <end>2016-08-25T11:22:22.100Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Walking</name>
+            <address />
+            <ExtendedData>
+                <Data name="Category">
+                    <value>Walking</value>
+                </Data>
+                <Data name="Distance">
+                    <value>494</value>
+                </Data>
+            </ExtendedData>
+            <description>Walking from 2016-08-25T11:22:22.100Z to 2016-08-25T11:28:25.002Z. Distance 494m</description>
+            <Point>
+                <coordinates />
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>30.364998200000002 50.4560768 0</gx:coord>
+                <gx:coord>30.3629336 50.4522031 0</gx:coord>
+                <gx:coord>30.3632147 50.4518994 0</gx:coord>
+                <gx:coord>30.3633529 50.4519485 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-08-25T11:22:22.100Z</begin>
+                <end>2016-08-25T11:28:25.002Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>вулиця Верховинна, 59</name>
+            <address>вулиця Верховинна, 59, Київ, Украина</address>
+            <ExtendedData>
+                <Data name="Category">
+                    <value />
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>from 2016-08-25T11:28:25.002Z to 2016-08-25T15:26:58.000Z. Distance 0m</description>
+            <Point>
+                <coordinates />
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>30.3633529 50.4519485 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-08-25T11:28:25.002Z</begin>
+                <end>2016-08-25T15:26:58.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Cycling</name>
+            <address />
+            <ExtendedData>
+                <Data name="Category">
+                    <value>Cycling</value>
+                </Data>
+                <Data name="Distance">
+                    <value>34754</value>
+                </Data>
+            </ExtendedData>
+            <description>Cycling from 2016-08-25T15:26:58.000Z to 2016-08-25T17:16:23.000Z. Distance 34754m</description>
+            <Point>
+                <coordinates />
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>30.3633529 50.4519485 0</gx:coord>
+                <gx:coord>30.3638 50.4521933 0</gx:coord>
+                <gx:coord>30.3646683 50.45239 0</gx:coord>
+                <gx:coord>30.364555 50.453155 0</gx:coord>
+                <gx:coord>30.36444 50.4539 0</gx:coord>
+                <gx:coord>30.3642867 50.454715 0</gx:coord>
+                <gx:coord>30.3641417 50.45544 0</gx:coord>
+                <gx:coord>30.3642267 50.4556667 0</gx:coord>
+                <gx:coord>30.364925 50.455785 0</gx:coord>
+                <gx:coord>30.3665117 50.4558933 0</gx:coord>
+                <gx:coord>30.3682567 50.4560017 0</gx:coord>
+                <gx:coord>30.3700667 50.45608 0</gx:coord>
+                <gx:coord>30.3734167 50.456345 0</gx:coord>
+                <gx:coord>30.3751933 50.4564383 0</gx:coord>
+                <gx:coord>30.3769117 50.45651 0</gx:coord>
+                <gx:coord>30.3786733 50.4566232 0</gx:coord>
+                <gx:coord>30.3819917 50.4568867 0</gx:coord>
+                <gx:coord>30.383515 50.45705 0</gx:coord>
+                <gx:coord>30.3851583 50.4571233 0</gx:coord>
+                <gx:coord>30.3864483 50.4572183 0</gx:coord>
+                <gx:coord>30.3877883 50.4573449 0</gx:coord>
+                <gx:coord>30.389285 50.4574349 0</gx:coord>
+                <gx:coord>30.3912683 50.4575783 0</gx:coord>
+                <gx:coord>30.3937767 50.4577417 0</gx:coord>
+                <gx:coord>30.3960233 50.45789 0</gx:coord>
+                <gx:coord>30.3981767 50.4580217 0</gx:coord>
+                <gx:coord>30.39994 50.4581433 0</gx:coord>
+                <gx:coord>30.401865 50.4582483 0</gx:coord>
+                <gx:coord>30.4039783 50.4583749 0</gx:coord>
+                <gx:coord>30.4052383 50.4584517 0</gx:coord>
+                <gx:coord>30.4065133 50.4585166 0</gx:coord>
+                <gx:coord>30.4083733 50.458625 0</gx:coord>
+                <gx:coord>30.4104183 50.4587549 0</gx:coord>
+                <gx:coord>30.412195 50.45893 0</gx:coord>
+                <gx:coord>30.4140233 50.45915 0</gx:coord>
+                <gx:coord>30.4159317 50.4591683 0</gx:coord>
+                <gx:coord>30.4175083 50.4589817 0</gx:coord>
+                <gx:coord>30.4189983 50.4587549 0</gx:coord>
+                <gx:coord>30.42097 50.458445 0</gx:coord>
+                <gx:coord>30.4227433 50.4581267 0</gx:coord>
+                <gx:coord>30.4240217 50.4579333 0</gx:coord>
+                <gx:coord>30.4254483 50.4577217 0</gx:coord>
+                <gx:coord>30.4272767 50.457405 0</gx:coord>
+                <gx:coord>30.4295667 50.4570717 0</gx:coord>
+                <gx:coord>30.4321567 50.456665 0</gx:coord>
+                <gx:coord>30.4346333 50.4562316 0</gx:coord>
+                <gx:coord>30.4366317 50.455925 0</gx:coord>
+                <gx:coord>30.4407067 50.4552367 0</gx:coord>
+                <gx:coord>30.44287 50.45489 0</gx:coord>
+                <gx:coord>30.4452583 50.4545167 0</gx:coord>
+                <gx:coord>30.4464967 50.4542817 0</gx:coord>
+                <gx:coord>30.4464667 50.4536383 0</gx:coord>
+                <gx:coord>30.4457067 50.4536733 0</gx:coord>
+                <gx:coord>30.445915 50.4544416 0</gx:coord>
+                <gx:coord>30.4462533 50.4553833 0</gx:coord>
+                <gx:coord>30.4467967 50.456545 0</gx:coord>
+                <gx:coord>30.447085 50.4575817 0</gx:coord>
+                <gx:coord>30.447355 50.4585783 0</gx:coord>
+                <gx:coord>30.44737 50.4594817 0</gx:coord>
+                <gx:coord>30.447265 50.46049 0</gx:coord>
+                <gx:coord>30.4472267 50.4615233 0</gx:coord>
+                <gx:coord>30.4472017 50.4625383 0</gx:coord>
+                <gx:coord>30.4471933 50.4634983 0</gx:coord>
+                <gx:coord>30.4471433 50.4644867 0</gx:coord>
+                <gx:coord>30.44709 50.46541 0</gx:coord>
+                <gx:coord>30.4469833 50.4662932 0</gx:coord>
+                <gx:coord>30.4469517 50.4670433 0</gx:coord>
+                <gx:coord>30.4468717 50.467865 0</gx:coord>
+                <gx:coord>30.44684 50.46888 0</gx:coord>
+                <gx:coord>30.4468417 50.4701033 0</gx:coord>
+                <gx:coord>30.447345 50.4714083 0</gx:coord>
+                <gx:coord>30.4476883 50.4724917 0</gx:coord>
+                <gx:coord>30.4479433 50.4732733 0</gx:coord>
+                <gx:coord>30.44897 50.47529 0</gx:coord>
+                <gx:coord>30.4494167 50.4759632 0</gx:coord>
+                <gx:coord>30.45036 50.4769983 0</gx:coord>
+                <gx:coord>30.45141 50.47804 0</gx:coord>
+                <gx:coord>30.4542667 50.4800633 0</gx:coord>
+                <gx:coord>30.456275 50.4809433 0</gx:coord>
+                <gx:coord>30.460945 50.4821316 0</gx:coord>
+                <gx:coord>30.46267 50.4826167 0</gx:coord>
+                <gx:coord>30.4643483 50.482895 0</gx:coord>
+                <gx:coord>30.466245 50.4830883 0</gx:coord>
+                <gx:coord>30.4682567 50.4833367 0</gx:coord>
+                <gx:coord>30.4699467 50.4837733 0</gx:coord>
+                <gx:coord>30.47088 50.4842767 0</gx:coord>
+                <gx:coord>30.470985 50.4843883 0</gx:coord>
+                <gx:coord>30.471195 50.4845217 0</gx:coord>
+                <gx:coord>30.4722417 50.4850433 0</gx:coord>
+                <gx:coord>30.4733983 50.485545 0</gx:coord>
+                <gx:coord>30.4738067 50.485315 0</gx:coord>
+                <gx:coord>30.4747817 50.4843917 0</gx:coord>
+                <gx:coord>30.476035 50.4831667 0</gx:coord>
+                <gx:coord>30.4761117 50.4830517 0</gx:coord>
+                <gx:coord>30.476225 50.48294 0</gx:coord>
+                <gx:coord>30.4772383 50.4821433 0</gx:coord>
+                <gx:coord>30.478565 50.4810733 0</gx:coord>
+                <gx:coord>30.47961 50.4801533 0</gx:coord>
+                <gx:coord>30.4808433 50.47921 0</gx:coord>
+                <gx:coord>30.4822133 50.4786783 0</gx:coord>
+                <gx:coord>30.4836167 50.47808 0</gx:coord>
+                <gx:coord>30.48494 50.47753 0</gx:coord>
+                <gx:coord>30.4861267 50.4769533 0</gx:coord>
+                <gx:coord>30.487485 50.47637 0</gx:coord>
+                <gx:coord>30.4885683 50.4759467 0</gx:coord>
+                <gx:coord>30.4885833 50.47593 0</gx:coord>
+                <gx:coord>30.4900567 50.4754233 0</gx:coord>
+                <gx:coord>30.491405 50.4749583 0</gx:coord>
+                <gx:coord>30.4925783 50.4744817 0</gx:coord>
+                <gx:coord>30.4925733 50.47448 0</gx:coord>
+                <gx:coord>30.493365 50.474195 0</gx:coord>
+                <gx:coord>30.494625 50.4737 0</gx:coord>
+                <gx:coord>30.49471 50.4736117 0</gx:coord>
+                <gx:coord>30.49504 50.4735133 0</gx:coord>
+                <gx:coord>30.4960367 50.4732183 0</gx:coord>
+                <gx:coord>30.49734 50.4727117 0</gx:coord>
+                <gx:coord>30.4982983 50.4722283 0</gx:coord>
+                <gx:coord>30.498915 50.4718883 0</gx:coord>
+                <gx:coord>30.4991383 50.4718117 0</gx:coord>
+                <gx:coord>30.4991167 50.47191 0</gx:coord>
+                <gx:coord>30.4992983 50.4717633 0</gx:coord>
+                <gx:coord>30.49964 50.4715833 0</gx:coord>
+                <gx:coord>30.4999817 50.4714117 0</gx:coord>
+                <gx:coord>30.500405 50.47121 0</gx:coord>
+                <gx:coord>30.500835 50.47094 0</gx:coord>
+                <gx:coord>30.501075 50.4709283 0</gx:coord>
+                <gx:coord>30.501165 50.4708683 0</gx:coord>
+                <gx:coord>30.5015417 50.4708083 0</gx:coord>
+                <gx:coord>30.50193 50.4709517 0</gx:coord>
+                <gx:coord>30.50224 50.4711367 0</gx:coord>
+                <gx:coord>30.5022367 50.4711483 0</gx:coord>
+                <gx:coord>30.5024117 50.4711783 0</gx:coord>
+                <gx:coord>30.5026017 50.471125 0</gx:coord>
+                <gx:coord>30.502625 50.471165 0</gx:coord>
+                <gx:coord>30.5026717 50.4712417 0</gx:coord>
+                <gx:coord>30.5026917 50.471335 0</gx:coord>
+                <gx:coord>30.5028683 50.47145 0</gx:coord>
+                <gx:coord>30.5029917 50.4715666 0</gx:coord>
+                <gx:coord>30.5030233 50.4716133 0</gx:coord>
+                <gx:coord>30.5031183 50.4716767 0</gx:coord>
+                <gx:coord>30.5032433 50.471735 0</gx:coord>
+                <gx:coord>30.5033283 50.471775 0</gx:coord>
+                <gx:coord>30.503385 50.4717917 0</gx:coord>
+                <gx:coord>30.5033533 50.4717383 0</gx:coord>
+                <gx:coord>30.5032933 50.4717733 0</gx:coord>
+                <gx:coord>30.50328 50.471765 0</gx:coord>
+                <gx:coord>30.5035067 50.4718917 0</gx:coord>
+                <gx:coord>30.5037433 50.4720299 0</gx:coord>
+                <gx:coord>30.5051817 50.47285 0</gx:coord>
+                <gx:coord>30.5054317 50.4731 0</gx:coord>
+                <gx:coord>30.50637 50.473655 0</gx:coord>
+                <gx:coord>30.5073117 50.4751167 0</gx:coord>
+                <gx:coord>30.5088383 50.4751683 0</gx:coord>
+                <gx:coord>30.5104517 50.47517 0</gx:coord>
+                <gx:coord>30.5133683 50.4751633 0</gx:coord>
+                <gx:coord>30.5144467 50.4750333 0</gx:coord>
+                <gx:coord>30.5156433 50.4744067 0</gx:coord>
+                <gx:coord>30.516825 50.4736783 0</gx:coord>
+                <gx:coord>30.5179883 50.4729733 0</gx:coord>
+                <gx:coord>30.5192083 50.4722067 0</gx:coord>
+                <gx:coord>30.5201583 50.471505 0</gx:coord>
+                <gx:coord>30.5211583 50.4710133 0</gx:coord>
+                <gx:coord>30.52221 50.47028 0</gx:coord>
+                <gx:coord>30.5233967 50.4696167 0</gx:coord>
+                <gx:coord>30.5241767 50.46852 0</gx:coord>
+                <gx:coord>30.52445 50.4674783 0</gx:coord>
+                <gx:coord>30.5245417 50.467125 0</gx:coord>
+                <gx:coord>30.5247217 50.4664633 0</gx:coord>
+                <gx:coord>30.524935 50.46537 0</gx:coord>
+                <gx:coord>30.525175 50.4642332 0</gx:coord>
+                <gx:coord>30.52545 50.4630367 0</gx:coord>
+                <gx:coord>30.5257383 50.4617667 0</gx:coord>
+                <gx:coord>30.5260067 50.4605683 0</gx:coord>
+                <gx:coord>30.52601 50.45948 0</gx:coord>
+                <gx:coord>30.526815 50.4582817 0</gx:coord>
+                <gx:coord>30.5283033 50.4575067 0</gx:coord>
+                <gx:coord>30.53122 50.4558733 0</gx:coord>
+                <gx:coord>30.53291 50.4551417 0</gx:coord>
+                <gx:coord>30.5348767 50.4543633 0</gx:coord>
+                <gx:coord>30.5367617 50.4536283 0</gx:coord>
+                <gx:coord>30.5385583 50.4529383 0</gx:coord>
+                <gx:coord>30.5403433 50.4522567 0</gx:coord>
+                <gx:coord>30.5421783 50.451535 0</gx:coord>
+                <gx:coord>30.54402 50.4506767 0</gx:coord>
+                <gx:coord>30.5469733 50.4492017 0</gx:coord>
+                <gx:coord>30.54846 50.4484367 0</gx:coord>
+                <gx:coord>30.549995 50.4476717 0</gx:coord>
+                <gx:coord>30.5514433 50.4469683 0</gx:coord>
+                <gx:coord>30.552965 50.4460533 0</gx:coord>
+                <gx:coord>30.55568 50.4441467 0</gx:coord>
+                <gx:coord>30.556945 50.4431417 0</gx:coord>
+                <gx:coord>30.55818 50.4420567 0</gx:coord>
+                <gx:coord>30.559225 50.441035 0</gx:coord>
+                <gx:coord>30.560005 50.4401567 0</gx:coord>
+                <gx:coord>30.5600317 50.440135 0</gx:coord>
+                <gx:coord>30.5606083 50.4395183 0</gx:coord>
+                <gx:coord>30.5615867 50.438495 0</gx:coord>
+                <gx:coord>30.5628133 50.43722 0</gx:coord>
+                <gx:coord>30.563635 50.4363083 0</gx:coord>
+                <gx:coord>30.5642367 50.4352167 0</gx:coord>
+                <gx:coord>30.5648433 50.43394 0</gx:coord>
+                <gx:coord>30.56549 50.4327217 0</gx:coord>
+                <gx:coord>30.5659033 50.4316367 0</gx:coord>
+                <gx:coord>30.5661367 50.430915 0</gx:coord>
+                <gx:coord>30.56664 50.4296983 0</gx:coord>
+                <gx:coord>30.5670717 50.42845 0</gx:coord>
+                <gx:coord>30.5675517 50.4271699 0</gx:coord>
+                <gx:coord>30.5680483 50.42601 0</gx:coord>
+                <gx:coord>30.568385 50.4248283 0</gx:coord>
+                <gx:coord>30.5684933 50.4236883 0</gx:coord>
+                <gx:coord>30.56862 50.4224699 0</gx:coord>
+                <gx:coord>30.5689 50.4212216 0</gx:coord>
+                <gx:coord>30.569355 50.41997 0</gx:coord>
+                <gx:coord>30.56972 50.418625 0</gx:coord>
+                <gx:coord>30.5699317 50.41735 0</gx:coord>
+                <gx:coord>30.5699483 50.41462 0</gx:coord>
+                <gx:coord>30.5696883 50.4131917 0</gx:coord>
+                <gx:coord>30.5693933 50.4120267 0</gx:coord>
+                <gx:coord>30.5691133 50.4111683 0</gx:coord>
+                <gx:coord>30.568475 50.40964 0</gx:coord>
+                <gx:coord>30.56803 50.4089067 0</gx:coord>
+                <gx:coord>30.56754 50.4080617 0</gx:coord>
+                <gx:coord>30.5669917 50.4072833 0</gx:coord>
+                <gx:coord>30.566415 50.4064183 0</gx:coord>
+                <gx:coord>30.56614 50.4059867 0</gx:coord>
+                <gx:coord>30.56561 50.4051817 0</gx:coord>
+                <gx:coord>30.5647867 50.4041683 0</gx:coord>
+                <gx:coord>30.563855 50.4031367 0</gx:coord>
+                <gx:coord>30.5612733 50.400865 0</gx:coord>
+                <gx:coord>30.5599733 50.3996817 0</gx:coord>
+                <gx:coord>30.5589433 50.398485 0</gx:coord>
+                <gx:coord>30.5581767 50.3971717 0</gx:coord>
+                <gx:coord>30.557615 50.3958267 0</gx:coord>
+                <gx:coord>30.557035 50.394385 0</gx:coord>
+                <gx:coord>30.5565267 50.3931633 0</gx:coord>
+                <gx:coord>30.55603 50.39196 0</gx:coord>
+                <gx:coord>30.55551 50.3907033 0</gx:coord>
+                <gx:coord>30.5549767 50.389435 0</gx:coord>
+                <gx:coord>30.5543983 50.3880466 0</gx:coord>
+                <gx:coord>30.5539167 50.38685 0</gx:coord>
+                <gx:coord>30.553455 50.38563 0</gx:coord>
+                <gx:coord>30.5530083 50.3843883 0</gx:coord>
+                <gx:coord>30.5525483 50.3831833 0</gx:coord>
+                <gx:coord>30.5521817 50.3821767 0</gx:coord>
+                <gx:coord>30.55176 50.38117 0</gx:coord>
+                <gx:coord>30.551375 50.3800633 0</gx:coord>
+                <gx:coord>30.5510183 50.3790233 0</gx:coord>
+                <gx:coord>30.550675 50.3778817 0</gx:coord>
+                <gx:coord>30.55035 50.37675 0</gx:coord>
+                <gx:coord>30.5500667 50.3756833 0</gx:coord>
+                <gx:coord>30.549865 50.3745517 0</gx:coord>
+                <gx:coord>30.54961 50.3735467 0</gx:coord>
+                <gx:coord>30.54936 50.3726117 0</gx:coord>
+                <gx:coord>30.549285 50.371835 0</gx:coord>
+                <gx:coord>30.5487783 50.3714933 0</gx:coord>
+                <gx:coord>30.5480417 50.37173 0</gx:coord>
+                <gx:coord>30.5461383 50.3723717 0</gx:coord>
+                <gx:coord>30.545245 50.3726383 0</gx:coord>
+                <gx:coord>30.5443583 50.3728117 0</gx:coord>
+                <gx:coord>30.543415 50.3729783 0</gx:coord>
+                <gx:coord>30.5425017 50.3731617 0</gx:coord>
+                <gx:coord>30.54167 50.3732583 0</gx:coord>
+                <gx:coord>30.541215 50.3735917 0</gx:coord>
+                <gx:coord>30.5414533 50.3738717 0</gx:coord>
+                <gx:coord>30.5417317 50.3741683 0</gx:coord>
+                <gx:coord>30.5418267 50.3745117 0</gx:coord>
+                <gx:coord>30.5416717 50.3749433 0</gx:coord>
+                <gx:coord>30.541315 50.3752017 0</gx:coord>
+                <gx:coord>30.54084 50.3754617 0</gx:coord>
+                <gx:coord>30.5403817 50.375705 0</gx:coord>
+                <gx:coord>30.5398967 50.37591 0</gx:coord>
+                <gx:coord>30.5394817 50.3761583 0</gx:coord>
+                <gx:coord>30.5390133 50.376395 0</gx:coord>
+                <gx:coord>30.538095 50.3768533 0</gx:coord>
+                <gx:coord>30.5377167 50.377095 0</gx:coord>
+                <gx:coord>30.5371983 50.3773717 0</gx:coord>
+                <gx:coord>30.5367717 50.37766 0</gx:coord>
+                <gx:coord>30.5363233 50.3779382 0</gx:coord>
+                <gx:coord>30.535865 50.378265 0</gx:coord>
+                <gx:coord>30.535285 50.3786117 0</gx:coord>
+                <gx:coord>30.5349567 50.3789067 0</gx:coord>
+                <gx:coord>30.5346 50.3792967 0</gx:coord>
+                <gx:coord>30.5342983 50.37973 0</gx:coord>
+                <gx:coord>30.533915 50.3802067 0</gx:coord>
+                <gx:coord>30.5334967 50.3806767 0</gx:coord>
+                <gx:coord>30.5330167 50.3812717 0</gx:coord>
+                <gx:coord>30.53275 50.3818417 0</gx:coord>
+                <gx:coord>30.53222 50.3830033 0</gx:coord>
+                <gx:coord>30.5319667 50.383545 0</gx:coord>
+                <gx:coord>30.5319133 50.383695 0</gx:coord>
+                <gx:coord>30.5317367 50.38366 0</gx:coord>
+                <gx:coord>30.53159 50.3836267 0</gx:coord>
+                <gx:coord>30.5316283 50.3837217 0</gx:coord>
+                <gx:coord>30.531875 50.38379 0</gx:coord>
+                <gx:coord>30.53163 50.3843417 0</gx:coord>
+                <gx:coord>30.5313433 50.3849383 0</gx:coord>
+                <gx:coord>30.5310783 50.3855099 0</gx:coord>
+                <gx:coord>30.5308467 50.386085 0</gx:coord>
+                <gx:coord>30.5306617 50.3865533 0</gx:coord>
+                <gx:coord>30.53047 50.3871367 0</gx:coord>
+                <gx:coord>30.5303317 50.387535 0</gx:coord>
+                <gx:coord>30.5301383 50.38799 0</gx:coord>
+                <gx:coord>30.5297733 50.3889567 0</gx:coord>
+                <gx:coord>30.52957 50.389835 0</gx:coord>
+                <gx:coord>30.529595 50.3902533 0</gx:coord>
+                <gx:coord>30.529395 50.39041 0</gx:coord>
+                <gx:coord>30.5287267 50.3902683 0</gx:coord>
+                <gx:coord>30.52827 50.3901783 0</gx:coord>
+                <gx:coord>30.5275167 50.39004 0</gx:coord>
+                <gx:coord>30.5269017 50.389935 0</gx:coord>
+                <gx:coord>30.5263183 50.3897867 0</gx:coord>
+                <gx:coord>30.5257183 50.3894949 0</gx:coord>
+                <gx:coord>30.5250083 50.3891633 0</gx:coord>
+                <gx:coord>30.5238633 50.3888583 0</gx:coord>
+                <gx:coord>30.5228417 50.38886 0</gx:coord>
+                <gx:coord>30.5218267 50.38879 0</gx:coord>
+                <gx:coord>30.52075 50.38858 0</gx:coord>
+                <gx:coord>30.5198417 50.3882067 0</gx:coord>
+                <gx:coord>30.518965 50.3879233 0</gx:coord>
+                <gx:coord>30.51804 50.3876383 0</gx:coord>
+                <gx:coord>30.51675 50.3873632 0</gx:coord>
+                <gx:coord>30.5149433 50.3869367 0</gx:coord>
+                <gx:coord>30.5141883 50.38718 0</gx:coord>
+                <gx:coord>30.51346 50.3876 0</gx:coord>
+                <gx:coord>30.51261 50.387855 0</gx:coord>
+                <gx:coord>30.5118083 50.3877033 0</gx:coord>
+                <gx:coord>30.5112867 50.3874416 0</gx:coord>
+                <gx:coord>30.5106467 50.387085 0</gx:coord>
+                <gx:coord>30.5099217 50.3868567 0</gx:coord>
+                <gx:coord>30.509115 50.3867767 0</gx:coord>
+                <gx:coord>30.5081183 50.3866483 0</gx:coord>
+                <gx:coord>30.5072033 50.3861982 0</gx:coord>
+                <gx:coord>30.5060933 50.3852217 0</gx:coord>
+                <gx:coord>30.5049517 50.3843867 0</gx:coord>
+                <gx:coord>30.5044533 50.3838166 0</gx:coord>
+                <gx:coord>30.5036433 50.3836217 0</gx:coord>
+                <gx:coord>30.50289 50.3835683 0</gx:coord>
+                <gx:coord>30.5020783 50.38357 0</gx:coord>
+                <gx:coord>30.5011267 50.38352 0</gx:coord>
+                <gx:coord>30.49939 50.3834667 0</gx:coord>
+                <gx:coord>30.49846 50.3834033 0</gx:coord>
+                <gx:coord>30.4977533 50.3833733 0</gx:coord>
+                <gx:coord>30.49682 50.3833183 0</gx:coord>
+                <gx:coord>30.4957133 50.3832983 0</gx:coord>
+                <gx:coord>30.4946483 50.3832533 0</gx:coord>
+                <gx:coord>30.4936767 50.38319 0</gx:coord>
+                <gx:coord>30.4926017 50.383065 0</gx:coord>
+                <gx:coord>30.4915217 50.3830033 0</gx:coord>
+                <gx:coord>30.490725 50.382985 0</gx:coord>
+                <gx:coord>30.49069 50.3836667 0</gx:coord>
+                <gx:coord>30.49089 50.384345 0</gx:coord>
+                <gx:coord>30.4910267 50.38535 0</gx:coord>
+                <gx:coord>30.49109 50.386265 0</gx:coord>
+                <gx:coord>30.4908983 50.3865367 0</gx:coord>
+                <gx:coord>30.4916483 50.3868517 0</gx:coord>
+                <gx:coord>30.4926867 50.387265 0</gx:coord>
+                <gx:coord>30.493885 50.3876733 0</gx:coord>
+                <gx:coord>30.493654 50.388791999999995 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-08-25T15:26:58.000Z</begin>
+                <end>2016-08-25T17:16:23.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Коломийський провулок, 3/1</name>
+            <address>Київ, Украина</address>
+            <ExtendedData>
+                <Data name="Category">
+                    <value />
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>from 2016-08-25T17:16:23.000Z to 2016-08-25T17:46:43.471Z. Distance 0m</description>
+            <Point>
+                <coordinates />
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>30.493654 50.388791999999995 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2016-08-25T17:16:23.000Z</begin>
+                <end>2016-08-25T17:46:43.471Z</end>
+            </TimeSpan>
+        </Placemark>
+    </Document>
+</kml>
