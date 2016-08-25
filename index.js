@@ -30,6 +30,7 @@ function fillTrack(places) {
     places.forEach(place=> {
         splitLatLngs(place.latLngs, place.timeStart, place.timeEnd)
     })
+    return TRACK
 
 
 }
