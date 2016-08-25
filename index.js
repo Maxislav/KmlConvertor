@@ -3,7 +3,8 @@
  */
 
 "use strict";
-var parseString = require('xml2js').parseString;
+let parseString = require('xml2js').parseString;
+let builder = require('xmlbuilder');
 
 let fs = require('fs');
 let TRACK = [];
@@ -21,18 +22,59 @@ readFile('history-2016-08-25.kml.xml')
         return getPlaces(placeMark)
     })
     .then(places=> {
-
         return fillTrack(places)
     })
+    .then(track=>{
+      return  xmlBuild(track)
+    });
+
+
+function xmlBuild(track) {
+    var xml = builder.create('gpx');
+
+        xml.att('xmlns', 'http://www.topografix.com/GPX/1/0')
+
+    xml.ele('time',{}, new Date().toISOString());
+        //
+
+    let trkseg = xml.ele('trk').ele('trkseg');
+
+    fillXmlData(trkseg, track);
+    trkseg.end({pretty:true})
+
+    fs.writeFile('message.xml', xml, (err) => {
+        if (err) throw err;
+        console.log('It\'s saved!');
+    });
+    //console.log(xml);
+}
+
+function fillXmlData(trkseg, track) {
+
+    track.forEach(item=>{
+       let trkpt= trkseg.ele('trkpt', {
+            'lat': item.lat,
+            lon: item.lng
+        });
+        trkpt.ele('time', {}, item.timeStamp.toISOString());
+        trkpt.ele('src',{}, 'network')
+    })
+
+
+}
+
+function getTime(date) {
+
+   return  date.getFullYear()+'-'+date.getMonth()+'-'+date.getDate()+"T" +
+            date.getHours()+":"+date.getMinutes()+":"+date.getSeconds()+'Z'
+}
 
 
 function fillTrack(places) {
     places.forEach(place=> {
         splitLatLngs(place.latLngs, place.timeStart, place.timeEnd)
-    })
+    });
     return TRACK
-
-
 }
 
 function splitLatLngs(latLngs, timeStart, timeEnd) {
@@ -43,8 +85,8 @@ function splitLatLngs(latLngs, timeStart, timeEnd) {
     if(latLngs.length == 1){
         let latLngsArr = latLngs[0].split(/\s/);
         TRACK.push({
-            lat: latLngsArr[0],
-            lng: latLngsArr[1],
+            lng: latLngsArr[0],
+            lat: latLngsArr[1],
             timeStamp: new Date(timeStart)
         })
     }else {
@@ -53,10 +95,12 @@ function splitLatLngs(latLngs, timeStart, timeEnd) {
         latLngs.forEach(latLng=>{
             let latLngsArr = latLng.split(/\s/);
             TRACK.push({
-                lat: latLngsArr[0],
-                lng: latLngsArr[1],
+                lng: latLngsArr[0],
+                lat: latLngsArr[1],
                 timeStamp:new Date(timeStartLong+(k*stepTime))
+
             })
+            k++;
 
         })
     }
