@@ -13,16 +13,44 @@ var express = require("express" ),
 	https = require( 'https' ),
 	mime = require( 'mime' ),
 	colors = require( 'colors' );
+var fileUpload = require('express-fileupload');
+
 var config = JSON.parse(fs.readFileSync('./server/server.config.json', "utf8" ).toString());
 port = config.port;
 var app  = express();
 app.set('port', port);
+app.use(fileUpload());
+
 
 http.createServer(app).listen(app.get('port'), function(){
 	'use strict';
 	console.log( ('Server start on port: ' + port).blue );
 });
 
+
+
+
+app.post('/kml-data', function (req, res, next) {
+	var sampleFile;
+
+	if (!req.files) {
+		res.send('No files were uploaded.');
+		return;
+	}
+	req.files.f.data.toString();
+	let name = req.files.f.name;
+	sampleFile = req.files.f;
+	sampleFile.mv('./uploads/'+name, function(err) {
+		if (err) {
+			res.status(500).send(err);
+		}
+		else {
+			res.setHeader('Content-disposition', 'attachment; filename=' + name);
+			//res.setHeader('Content-type', mimetype);
+			res.end(req.files.f.data);
+		}
+	});
+});
 
 
 app.use(function(req, res, next){
