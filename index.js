@@ -10,7 +10,7 @@ let fs = require('fs');
 let TRACK = [];
 
 
-readFile('history-2016-08-25.kml.xml')
+readFile('history-2016-09-13.kml.xml')
     .then((xmlStr)=> {
         return toJson(xmlStr)
     })
@@ -24,23 +24,26 @@ readFile('history-2016-08-25.kml.xml')
     .then(places=> {
         return fillTrack(places)
     })
-    .then(track=>{
-      return  xmlBuild(track)
+    .then(track=> {
+        return xmlBuild(track)
     });
 
 
 function xmlBuild(track) {
     var xml = builder.create('gpx');
 
-        xml.att('xmlns', 'http://www.topografix.com/GPX/1/0')
+    xml.att('xmlns', 'http://www.topografix.com/GPX/1/0');
+    xml.att('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance');
+    xml.att('version', '1.0');
+    xml.att('creator', 'Google time-line');
 
-    xml.ele('time',{}, new Date().toISOString());
-        //
+    xml.ele('time', {}, new Date().toISOString());
+    //
 
     let trkseg = xml.ele('trk').ele('trkseg');
 
     fillXmlData(trkseg, track);
-    trkseg.end({pretty:true})
+    trkseg.end({pretty: true});
 
     fs.writeFile('message.xml', xml, (err) => {
         if (err) throw err;
@@ -51,13 +54,13 @@ function xmlBuild(track) {
 
 function fillXmlData(trkseg, track) {
 
-    track.forEach(item=>{
-       let trkpt= trkseg.ele('trkpt', {
+    track.forEach(item=> {
+        let trkpt = trkseg.ele('trkpt', {
             'lat': item.lat,
             lon: item.lng
         });
         trkpt.ele('time', {}, item.timeStamp.toISOString());
-        trkpt.ele('src',{}, 'network')
+        trkpt.ele('src', {}, 'network')
     })
 
 
@@ -65,8 +68,8 @@ function fillXmlData(trkseg, track) {
 
 function getTime(date) {
 
-   return  date.getFullYear()+'-'+date.getMonth()+'-'+date.getDate()+"T" +
-            date.getHours()+":"+date.getMinutes()+":"+date.getSeconds()+'Z'
+    return date.getFullYear() + '-' + date.getMonth() + '-' + date.getDate() + "T" +
+        date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds() + 'Z'
 }
 
 
@@ -82,22 +85,22 @@ function splitLatLngs(latLngs, timeStart, timeEnd) {
     let timeEndLong = new Date(timeEnd).getTime();
 
 
-    if(latLngs.length == 1){
+    if (latLngs.length == 1) {
         let latLngsArr = latLngs[0].split(/\s/);
         TRACK.push({
             lng: latLngsArr[0],
             lat: latLngsArr[1],
             timeStamp: new Date(timeStart)
         })
-    }else {
-        let stepTime = (timeEndLong - timeStartLong)/latLngs.length;
+    } else {
+        let stepTime = (timeEndLong - timeStartLong) / latLngs.length;
         let k = 0;
-        latLngs.forEach(latLng=>{
+        latLngs.forEach(latLng=> {
             let latLngsArr = latLng.split(/\s/);
             TRACK.push({
                 lng: latLngsArr[0],
                 lat: latLngsArr[1],
-                timeStamp:new Date(timeStartLong+(k*stepTime))
+                timeStamp: new Date(timeStartLong + (k * stepTime))
 
             })
             k++;
@@ -117,11 +120,15 @@ function splitLatLngs(latLngs, timeStart, timeEnd) {
 function getPlaces(placeMark) {
     let places = [];
     placeMark.forEach(place=> {
-        places.push({
-            latLngs: place['gx:Track'][0]['gx:coord'],
-            timeStart: place.TimeSpan[0].begin[0],
-            timeEnd: place.TimeSpan[0].end[0]
-        })
+        console.log(place.name[0]);
+        if(place.name[0]=='Cycling'){
+            places.push({
+                latLngs: place['gx:Track'][0]['gx:coord'],
+                timeStart: place.TimeSpan[0].begin[0],
+                timeEnd: place.TimeSpan[0].end[0]
+            })
+        }
+
     });
     return places
 }
