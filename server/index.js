@@ -28,30 +28,10 @@ http.createServer(app).listen(app.get('port'), function(){
 });
 
 
-
-
-app.post('/kml-data', function (req, res, next) {
-	var sampleFile;
-
-	if (!req.files) {
-		res.send('No files were uploaded.');
-		return;
-	}
-	req.files.f.data.toString();
-	let name = req.files.f.name;
-	sampleFile = req.files.f;
-	sampleFile.mv('./uploads/'+name, function(err) {
-		if (err) {
-			res.status(500).send(err);
-		}
-		else {
-			res.setHeader('Content-disposition', 'attachment; filename=' + name);
-			//res.setHeader('Content-type', mimetype);
-			res.end(req.files.f.data);
-		}
-	});
-});
-
+/**
+ * 
+ */
+require('./kml-data')(app);
 
 app.use(function(req, res, next){
 	'use strict';

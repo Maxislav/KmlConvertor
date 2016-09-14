@@ -10,6 +10,8 @@ let fs = require('fs');
 let TRACK = [];
 
 
+
+
 readFile('history-2016-09-13.kml.xml')
     .then((xmlStr)=> {
         return toJson(xmlStr)
