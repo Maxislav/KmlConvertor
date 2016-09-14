@@ -1,8 +1,16 @@
 /**
  * Created by maxim on 9/13/16.
  */
-var jade = require('gulp-jade');
-var gulp = require('gulp');
+const jade = require('gulp-jade');
+const gulp = require('gulp');
+const gulpsync = require('gulp-sync')(gulp);
+const  livereload  = require('gulp-livereload');
+
+const syncDev = [
+  'jade',
+  'watch'
+];
+
 
 gulp.task('jade', function() {
     var LOCALS = {};
@@ -13,8 +21,12 @@ gulp.task('jade', function() {
             pretty: true
         }))
         .pipe(gulp.dest('./'))
+        .pipe(livereload())
 });
 
 gulp.task('watch', function () {
+    livereload.listen();
     gulp.watch('./*.jade',['jade']);
 });
+
+gulp.task('default', gulpsync.sync(syncDev));

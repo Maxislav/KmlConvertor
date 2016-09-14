@@ -13,7 +13,7 @@ module.exports = function (app) {
   app.post('/kml-data', function (req, res, next) {
     var sampleFile;
 
-    if (!req.files) {
+    if (!req.files.f.data.length) {
       res.send('No files were uploaded.');
       return;
     }
@@ -205,7 +205,7 @@ function readFile(path) {
 
     fs.readFile(path, (err, data) => {
       if (err) {
-        reject(err)
+        reject(err);
         return
       }
       resolve(data.toString())
